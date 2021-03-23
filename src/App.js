@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/app.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <section className="w-3/6 m-auto flex flex-warp mt-28">
+     <div className="flex felx-wrap">
+       <div className="w-full mb-8 p-10 bg-gray-100 relative rounded shadow">
+         <span className="text-gray-300 text-6xl absolute italic right-10">
+           01
+         </span>
+         <h2 className="z-10 relative text-2xl texty-gray-900 absolute">
+           Log Rocket
+         </h2>
+         <hr className="block mb-6 mt-5 w-8 border-red-500 h-0 border-t-2" />
+         <p className="text-gray-700">
+         loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+         loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+         loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+         loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+         loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+         loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+         </p>
+       </div>
+     </div>
+   </section>
   );
 }
 
